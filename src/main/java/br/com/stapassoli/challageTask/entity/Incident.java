@@ -1,7 +1,6 @@
 package br.com.stapassoli.challageTask.entity;
 
 import br.com.stapassoli.challageTask.dto.IncidentCreateDTO;
-import br.com.stapassoli.challageTask.dto.IncidentDTO;
 import br.com.stapassoli.challageTask.dto.IncidentUpdateDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
