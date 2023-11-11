@@ -1,0 +1,31 @@
+version: '3'
+services:
+  backend-spring:
+    restart: always
+    container_name: app
+    environment:
+      - SERVER_PORT=9000
+      - SPRING_APPLICATION_NAME=taskChallange
+      - SPRING_DATASOURCE_URL=jdbc:h2:mem:testdb
+      - SPRING_DATASOURCE_DRIVERCLASSNAME=org.h2.Driver
+      - SPRING_DATASOURCE_USERNAME=admin
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_JPA_DATABASEPLATFORM=org.hibernate.dialect.H2Dialect
+      - SPRING_H2_CONSOLE_ENABLED=true
+      - SPRING_H2_CONSOLE_PATH=/h2-console
+      - SPRING_H2_CONSOLE_SETTINGS_TRACE=false
+      - SPRING_H2_CONSOLE_SETTINGS_WEB_ALLOW_OTHERS=false
+      - SPRING_JPA_DEFER_DATASOURCE_INITIALIZATION=true
+      - SPRINGDOC_SWAGGER_UI_OPERATIONSSORTER=method
+    build: .
+    ports:
+      - "9000:9000"
+    networks:
+      - rede_spring
+
+
+volumes:
+  volume_spring:
+
+networks:
+  rede_spring:

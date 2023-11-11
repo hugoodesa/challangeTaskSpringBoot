@@ -1,0 +1,22 @@
+INSERT INTO Incident (ID_INCIDENT, NAME, DESCRIPTION, CREATED_AT, UPDATED_AT, CLOSED_AT)
+VALUES
+(1001, 'Incident 1', 'Description for Incident 1', '2023-11-01', '2023-11-02', '2023-11-05'),
+(1002, 'Incident 2', 'Description for Incident 2', '2023-10-25', '2023-10-26', '2023-10-28'),
+(1003, 'Incident 3', 'Description for Incident 3', '2023-11-03', '2023-11-04', '2023-11-06'),
+(1004, 'Incident 4', 'Description for Incident 4', '2023-10-29', '2023-10-30', '2023-11-01'),
+(1005, 'Incident 5', 'Description for Incident 5', '2023-10-27', '2023-10-28', '2023-10-31'),
+(1006, 'Incident 6', 'Description for Incident 6', '2023-11-06', '2023-11-07', '2023-11-10'),
+(1007, 'Incident 7', 'Description for Incident 7', '2023-11-04', '2023-11-05', '2023-11-07'),
+(1008, 'Incident 8', 'Description for Incident 8', '2023-10-30', '2023-10-31', '2023-11-03'),
+(1009, 'Incident 9', 'Description for Incident 9', '2023-11-02', '2023-11-03', '2023-11-05'),
+(1010, 'Incident 10', 'Description for Incident 10', '2023-10-28', '2023-10-29', '2023-11-01'),
+(1011, 'Incident 11', 'Description for Incident 11', '2023-11-08', '2023-11-09', '2023-11-12'),
+(1012, 'Incident 12', 'Description for Incident 12', '2023-11-10', '2023-11-11', '2023-11-13'),
+(1013, 'Incident 13', 'Description for Incident 13', '2023-11-13', '2023-11-14', '2023-11-16'),
+(1014, 'Incident 14', 'Description for Incident 14', '2023-11-11', '2023-11-12', '2023-11-14'),
+(1015, 'Incident 15', 'Description for Incident 15', '2023-11-09', '2023-11-10', '2023-11-13'),
+(1016, 'Incident 16', 'Description for Incident 16', '2023-11-16', '2023-11-17', '2023-11-20'),
+(1017, 'Incident 17', 'Description for Incident 17', '2023-11-14', '2023-11-15', '2023-11-17'),
+(1018, 'Incident 18', 'Description for Incident 18', '2023-11-12', '2023-11-13', '2023-11-16'),
+(1019, 'Incident 19', 'Description for Incident 19', '2023-11-15', '2023-11-16', '2023-11-18'),
+(1020, 'Incident 20', 'Description for Incident 20', '2023-11-11', '2023-11-12', '2023-11-15');
